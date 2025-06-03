@@ -13,6 +13,7 @@ import com.oracle.bedrock.runtime.Application;
 import com.oracle.bedrock.runtime.Platform;
 import com.oracle.bedrock.runtime.java.ClassPath;
 import com.oracle.bedrock.runtime.java.options.ClassName;
+import com.oracle.bedrock.runtime.java.options.Freeform;
 import com.oracle.bedrock.runtime.options.ApplicationClosingBehavior;
 import com.oracle.bedrock.runtime.options.Argument;
 import com.oracle.bedrock.runtime.options.Executable;
@@ -237,6 +238,9 @@ public interface NativeApplication
                 }
 
                 options.add(Executable.named(nativeImage));
+                // Q: Can we pass extra arguments here?
+                // Add native-image run-time options here
+                options.add(Argument.of("-XX:MissingRegistrationReportingMode=Warn"));
                 options.remove(ClassName.class);
                 options.remove(ClassPath.class);
             } else {

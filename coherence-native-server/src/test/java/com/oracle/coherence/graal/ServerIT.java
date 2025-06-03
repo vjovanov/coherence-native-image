@@ -34,8 +34,10 @@ public class ServerIT {
                 .build("server");
 
         try (NativeApplication server = LocalPlatform.get().launch(NativeApplication.class,
-                Arguments.of("-Djava.net.preferIPv4Stack=true",
+                Arguments.of(
+                        // "-agentpath:/home/vjovanov/c/g/lottet/GR-63591-bundles-as-resources/ce/sdk/mxbuild/linux-amd64/GRAALVM_NI_EE_JAVA25/graalvm-ni-ee-jdk-25+23.1/lib/libnative-image-agent.so=config-merge-dir=/tmp/native-metadata-server",
                         "-Dcoherence.lambdas=static",
+                        "-Djava.net.preferIPv4Stack=true",
                         "-Dcoherence.cluster=native-image-test-1",
                         "-Dcoherence.localhost=127.0.0.1",
                         "-Dcoherence.wka=127.0.0.1"),
@@ -65,8 +67,10 @@ public class ServerIT {
                 .build("server-2");
 
         try (NativeApplication server1 = LocalPlatform.get().launch(NativeApplication.class,
-                Arguments.of("-Djava.net.preferIPv4Stack=true",
+                Arguments.of(
+                        // "-agentpath:/home/vjovanov/c/g/lottet/GR-63591-bundles-as-resources/ce/sdk/mxbuild/linux-amd64/GRAALVM_NI_EE_JAVA25/graalvm-ni-ee-jdk-25+23.1/lib/libnative-image-agent.so=config-merge-dir=/tmp/native-metadata-server-1",
                         "-Dcoherence.lambdas=static",
+                        "-Djava.net.preferIPv4Stack=true",
                         "-Dcoherence.cluster=native-image-test-2",
                         "-Dcoherence.localhost=127.0.0.1",
                         "-Dcoherence.wka=127.0.0.1"),
@@ -76,8 +80,14 @@ public class ServerIT {
                 Console.of(console1));
 
              NativeApplication server2 = LocalPlatform.get().launch(NativeApplication.class,
-                     Arguments.of("-Djava.net.preferIPv4Stack=true",
+                     Arguments.of(
+                             // TODO: we need to enable the agent as a mode for collecting metadata
+                             // ISSUE: standard `-agentlib:` doesn't work as expected. The full path is needed.
+                             // "-agentpath:/home/vjovanov/c/g/lottet/GR-63591-bundles-as-resources/ce/sdk/mxbuild/linux-amd64/GRAALVM_NI_EE_JAVA25/graalvm-ni-ee-jdk-25+23.1/lib/libnative-image-agent.so=config-merge-dir=/tmp/native-metadata-server-2",
+
+                             // Lambdas must use standard Java serialization
                              "-Dcoherence.lambdas=static",
+                             "-Djava.net.preferIPv4Stack=true",
                              "-Dcoherence.cluster=native-image-test-2",
                              "-Dcoherence.localhost=127.0.0.1",
                              "-Dcoherence.wka=127.0.0.1"),

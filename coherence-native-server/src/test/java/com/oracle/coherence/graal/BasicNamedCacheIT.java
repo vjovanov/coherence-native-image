@@ -15,7 +15,6 @@ import com.oracle.bedrock.runtime.options.DisplayName;
 import com.oracle.bedrock.testsupport.deferred.Eventually;
 import com.oracle.bedrock.testsupport.junit.TestLogsExtension;
 import com.oracle.coherence.graal.model.java.Country;
-
 import com.oracle.coherence.graal.model.pof.Address;
 import com.oracle.coherence.graal.model.pof.Customer;
 import com.oracle.coherence.graal.testing.NativeApplication;
@@ -28,6 +27,7 @@ import com.tangosol.net.PartitionedService;
 import com.tangosol.net.Service;
 import com.tangosol.net.Session;
 
+import com.tangosol.net.*;
 import com.tangosol.util.Aggregators;
 import com.tangosol.util.Extractors;
 import com.tangosol.util.Filters;
@@ -45,7 +45,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
-import java.util.*;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -114,8 +117,11 @@ public class BasicNamedCacheIT {
         ClassPath cp = ClassPath.automatic().excluding(ClassPath.ofClass(BasicNamedCacheIT.class));
 
         server1 = platform.launch(NativeApplication.class,
-                Arguments.of("-Djava.net.preferIPv4Stack=true",
+                Arguments.of(
+                        // Q: Can we add this to `LocalPlatform.launch` behind a system property?
+                        // "-agentpath:/home/vjovanov/c/g/lottet/GR-63591-bundles-as-resources/ce/sdk/mxbuild/linux-amd64/GRAALVM_NI_EE_JAVA25/graalvm-ni-ee-jdk-25+23.1/lib/libnative-image-agent.so=config-merge-dir=/tmp/native-metadata-server-1",
                         "-Dcoherence.lambdas=" + lambdas,
+                        "-Djava.net.preferIPv4Stack=true",
                         "-Dcoherence.cluster=" + CLUSTER_NAME,
                         "-Dcoherence.localhost=127.0.0.1",
                         "-Dcoherence.wka=127.0.0.1"),
@@ -125,8 +131,10 @@ public class BasicNamedCacheIT {
                 testLogs);
 
         server2 = platform.launch(NativeApplication.class,
-                Arguments.of("-Djava.net.preferIPv4Stack=true",
+                Arguments.of(
+                        // "-agentpath:/home/vjovanov/c/g/lottet/GR-63591-bundles-as-resources/ce/sdk/mxbuild/linux-amd64/GRAALVM_NI_EE_JAVA25/graalvm-ni-ee-jdk-25+23.1/lib/libnative-image-agent.so=config-merge-dir=/tmp/native-metadata-server-2",
                         "-Dcoherence.lambdas=" + lambdas,
+                        "-Djava.net.preferIPv4Stack=true",
                         "-Dcoherence.cluster=" + CLUSTER_NAME,
                         "-Dcoherence.localhost=127.0.0.1",
                         "-Dcoherence.wka=127.0.0.1"),
@@ -199,7 +207,7 @@ public class BasicNamedCacheIT {
         final AtomicInteger insertCounter = new AtomicInteger();
 
         MapListener<Integer, Customer> listener = new SimpleMapListener<Integer, Customer>()
-                .addInsertHandler((e-> insertCounter.incrementAndGet()));
+                .addInsertHandler((e -> insertCounter.incrementAndGet()));
         customers.addMapListener(listener);
 
         for (int i = 1; i <= maxCustomers; i++) {

@@ -15,7 +15,10 @@
     <name>Coherence GraalVM Native Testing Support</name>
     <description>Oracle Coherence GraalVM native image testing support utils</description>
     <packaging>jar</packaging>
-
+    <properties>
+      <coherence.groupId>com.oracle.coherence.ce</coherence.groupId>
+      <version.lib.coherence>25.03.1</version.lib.coherence>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>${coherence.groupId}</groupId>

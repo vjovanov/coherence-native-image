@@ -22,11 +22,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>${coherence.groupId}</groupId>
-            <artifactId>coherence</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>com.oracle.coherence</groupId>
             <artifactId>coherence-native-testing-support</artifactId>
             <version>${project.version}</version>
@@ -57,6 +52,27 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.coherence.ce</groupId>
+            <artifactId>coherence</artifactId>
+            <version>25.03.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.bedrock</groupId>
+            <artifactId>bedrock-runtime</artifactId>
+            <version>7.0.4</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.12.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.bedrock</groupId>
+            <artifactId>bedrock-testing-support</artifactId>
+            <version>7.0.4</version>
         </dependency>
     </dependencies>
 

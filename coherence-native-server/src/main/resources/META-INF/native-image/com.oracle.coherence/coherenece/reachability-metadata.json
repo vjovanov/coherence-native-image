@@ -1515,7 +1515,17 @@
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$Queue$Iterator"
     },
     {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$TcpConnection"
+      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$TcpConnection",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "com.tangosol.coherence.Component",
+            "boolean"
+          ]
+        }
+      ]
     },
     {
       "type": "com.tangosol.coherence.component.net.Cluster$NameServiceBridge$InterruptTask"
@@ -8297,12 +8307,7 @@
     {
       "type": "java.lang.String",
       "allDeclaredFields": true,
-      "serializable": true,
-      "fields": [
-        {
-          "name": "TYPE"
-        }
-      ]
+      "serializable": true
     },
     {
       "type": "java.lang.String[]"

@@ -91,45 +91,6 @@
       ]
     },
     {
-      "type": "com.oracle.coherence.graal.model.pof.Address",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "com.tangosol.io.pof.PofReader"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.oracle.coherence.graal.model.pof.Customer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "com.tangosol.io.pof.PofReader"
-          ]
-        },
-        {
-          "name": "getBalance",
-          "parameterTypes": []
-        },
-        {
-          "name": "getCustomerType",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.oracle.coherence.graal.model.pof.Customer$setBalance$08F261C8A9878E6F25F60BCD19DE9EE4",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.oracle.coherence.persistence.PersistentStoreInfo"
     },
     {
@@ -6379,9 +6340,6 @@
       "type": "com.tangosol.internal.net.queue.model.QueueOfferResult"
     },
     {
-      "type": "com.tangosol.internal.net.queue.model.QueuePageResult"
-    },
-    {
       "type": "com.tangosol.internal.net.queue.model.QueuePollResult"
     },
     {
@@ -6401,9 +6359,6 @@
     },
     {
       "type": "com.tangosol.internal.net.queue.paged.PeekWholeBucketAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.QueueInfo"
     },
     {
       "type": "com.tangosol.internal.net.queue.paged.QueueOfferTailProcessor"
@@ -7881,9 +7836,6 @@
       "type": "com.tangosol.util.extractor.CollectionExtractor"
     },
     {
-      "type": "com.tangosol.util.extractor.ComparisonValueExtractor"
-    },
-    {
       "type": "com.tangosol.util.extractor.CompositeUpdater"
     },
     {
@@ -8088,9 +8040,6 @@
     },
     {
       "type": "com.tangosol.util.processor.ExtractorProcessor"
-    },
-    {
-      "type": "com.tangosol.util.processor.MethodInvocationProcessor"
     },
     {
       "type": "com.tangosol.util.processor.NumberIncrementor"

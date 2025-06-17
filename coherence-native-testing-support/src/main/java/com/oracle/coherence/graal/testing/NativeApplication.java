@@ -241,6 +241,7 @@ public interface NativeApplication
                 // Q: Can we pass extra arguments here?
                 // Add native-image run-time options here
                 options.add(Argument.of("-XX:MissingRegistrationReportingMode=Warn"));
+//                options.add(Argument.of("-XX:RecordMetadata=path=/tmp/"));
                 options.remove(ClassName.class);
                 options.remove(ClassPath.class);
             } else {

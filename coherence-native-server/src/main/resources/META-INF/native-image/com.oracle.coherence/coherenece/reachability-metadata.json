@@ -11,39 +11,6 @@
       "type": "char[]"
     },
     {
-      "type": "com.oracle.coherence.ai.BitVector"
-    },
-    {
-      "type": "com.oracle.coherence.ai.DocumentChunk"
-    },
-    {
-      "type": "com.oracle.coherence.ai.DocumentChunk$Id"
-    },
-    {
-      "type": "com.oracle.coherence.ai.Float32Vector"
-    },
-    {
-      "type": "com.oracle.coherence.ai.Int8Vector"
-    },
-    {
-      "type": "com.oracle.coherence.ai.distance.CosineDistance"
-    },
-    {
-      "type": "com.oracle.coherence.ai.distance.InnerProductDistance"
-    },
-    {
-      "type": "com.oracle.coherence.ai.distance.L2SquaredDistance"
-    },
-    {
-      "type": "com.oracle.coherence.ai.search.BinaryQueryResult"
-    },
-    {
-      "type": "com.oracle.coherence.ai.search.SimilaritySearch"
-    },
-    {
-      "type": "com.oracle.coherence.ai.search.SimpleQueryResult"
-    },
-    {
       "type": "com.oracle.coherence.common.base.ConcurrentNotifier",
       "fields": [
         {
@@ -89,9 +56,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "com.oracle.coherence.persistence.PersistentStoreInfo"
     },
     {
       "type": "com.oracle.net.Sdp"
@@ -1250,214 +1214,34 @@
       ]
     },
     {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$AcceptChannel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$AcceptChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$AcceptChannelRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$AcceptChannelRequest$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$AcceptChannelResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$CloseChannel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$CloseChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$CloseConnection",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$CloseConnection$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$CreateChannel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$CreateChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$EncodedMessage",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$NotifyChannelClosed",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$NotifyConnectionClosed",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$NotifyShutdown",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$NotifyStartup",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenChannel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenChannel$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenChannelRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenChannelRequest$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenChannelResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenConnection",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenConnection$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenConnectionRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenConnectionRequest$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$OpenConnectionResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$PingRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$PingRequest$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$PingResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$MessageFactory$Response",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.net.Cluster$NameService$TcpAcceptor$Queue",
@@ -2035,9 +1819,6 @@
       ]
     },
     {
-      "type": "com.tangosol.coherence.component.net.Member"
-    },
-    {
       "type": "com.tangosol.coherence.component.net.Member$FlowControl",
       "methods": [
         {
@@ -2104,83 +1885,10 @@
       "type": "com.tangosol.coherence.component.net.extend.remoteService.RemoteNameService$InterruptTask"
     },
     {
-      "type": "com.tangosol.coherence.component.net.management.Connector$Announce",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        },
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "com.tangosol.coherence.Component",
-            "boolean"
-          ]
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.net.management.Connector$ExecuteFunction"
     },
     {
-      "type": "com.tangosol.coherence.component.net.management.Connector$InvokeRemote"
-    },
-    {
       "type": "com.tangosol.coherence.component.net.management.Connector$LookupCallback"
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.Connector$Notify"
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.Connector$Publish",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        },
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "com.tangosol.coherence.Component",
-            "boolean"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.Connector$Register",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        },
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "com.tangosol.coherence.Component",
-            "boolean"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.Connector$Subscribe"
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.Connector$Unregister",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "com.tangosol.coherence.Component",
-            "boolean"
-          ]
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.net.management.gateway.Local$LocalMBeanServerProxy"
@@ -2201,69 +1909,6 @@
             "com.tangosol.coherence.Component",
             "boolean"
           ]
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.model.localModel.ClusterNodeModel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.model.localModel.ConnectionManagerModel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.model.localModel.PointToPointModel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.model.localModel.ReporterModel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.model.localModel.ServiceModel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.model.localModel.WrapperModel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.net.management.model.localModel.wrapperModel.WrapperJmxModel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
         }
       ]
     },
@@ -2370,94 +2015,34 @@
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory"
     },
     {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$AcceptChannel"
-    },
-    {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$AcceptChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$AcceptChannelRequest"
     },
     {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$AcceptChannelRequest$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$AcceptChannelResponse"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$CloseChannel"
-    },
-    {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$CloseChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$CloseConnection"
     },
     {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$CloseConnection$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$CreateChannel"
-    },
-    {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$CreateChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$EncodedMessage"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$NotifyChannelClosed"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$NotifyConnectionClosed"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$NotifyShutdown"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$NotifyStartup"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenChannel"
     },
     {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenChannel$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenChannelRequest"
-    },
-    {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenChannelRequest$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenChannelResponse"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenConnection"
     },
     {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenConnection$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenConnectionRequest"
-    },
-    {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenConnectionRequest$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$OpenConnectionResponse"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$PingRequest"
-    },
-    {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$PingRequest$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$PingResponse"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$MessageFactory$Response"
     },
     {
       "type": "com.tangosol.coherence.component.util.NameService$TcpAcceptor$Queue"
@@ -3191,196 +2776,34 @@
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory"
     },
     {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$AcceptChannel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$AcceptChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$AcceptChannelRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$AcceptChannelRequest$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$AcceptChannelResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$CloseChannel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$CloseChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$CloseConnection",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$CloseConnection$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$CreateChannel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$CreateChannel$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$EncodedMessage",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$NotifyChannelClosed",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$NotifyConnectionClosed",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$NotifyShutdown",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$NotifyStartup",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenChannel",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenChannel$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenChannelRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenChannelRequest$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenChannelResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenConnection"
     },
     {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenConnection$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenConnectionRequest"
-    },
-    {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenConnectionRequest$Status"
     },
     {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$OpenConnectionResponse"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$PingRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$PingRequest$Status"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$PingResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.Peer$MessageFactory$Response",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.grid.ClusterService$MemberHeartbeat"
@@ -4928,49 +4351,7 @@
       ]
     },
     {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.Acceptor$MessageFactory$OpenConnection",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.Acceptor$MessageFactory$OpenConnectionRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.Acceptor$MessageFactory$OpenConnectionResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.Initiator$MessageFactory"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.Initiator$MessageFactory$OpenConnection",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.Initiator$MessageFactory$OpenConnectionRequest"
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.Initiator$MessageFactory$OpenConnectionResponse"
     },
     {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.acceptor.HttpAcceptor",
@@ -5020,33 +4401,6 @@
       ]
     },
     {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.acceptor.TcpAcceptor$MessageFactory$OpenConnectionRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.acceptor.TcpAcceptor$MessageFactory$OpenConnectionResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.acceptor.TcpAcceptor$MessageFactory$PingRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.acceptor.TcpAcceptor$TcpConnection"
     },
     {
@@ -5068,24 +4422,6 @@
             "com.tangosol.coherence.Component",
             "boolean"
           ]
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.initiator.TcpInitiator$MessageFactory$OpenConnectionRequest",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.component.util.daemon.queueProcessor.service.peer.initiator.TcpInitiator$MessageFactory$OpenConnectionResponse",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
         }
       ]
     },
@@ -5163,33 +4499,7 @@
       "type": "com.tangosol.coherence.config.CacheMapping"
     },
     {
-      "type": "com.tangosol.coherence.config.ParameterMacroExpression"
-    },
-    {
-      "type": "com.tangosol.coherence.config.ResolvableParameterList"
-    },
-    {
-      "type": "com.tangosol.coherence.config.SimpleParameterList"
-    },
-    {
       "type": "com.tangosol.coherence.config.builder.DaemonPoolBuilder"
-    },
-    {
-      "type": "com.tangosol.coherence.config.builder.InstanceBuilder",
-      "methods": [
-        {
-          "name": "setClassName",
-          "parameterTypes": [
-            "com.tangosol.config.expression.Expression"
-          ]
-        },
-        {
-          "name": "setConstructorParameterList",
-          "parameterTypes": [
-            "com.tangosol.coherence.config.ParameterList"
-          ]
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.config.builder.PersistenceEnvironmentParamBuilder",
@@ -5236,9 +4546,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.builder.StaticFactoryInstanceBuilder"
     },
     {
       "type": "com.tangosol.coherence.config.scheme.AbstractScheme",
@@ -5350,652 +4657,7 @@
       ]
     },
     {
-      "type": "com.tangosol.coherence.config.xml.CacheConfigNamespaceHandler"
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.OperationalConfigNamespaceHandler"
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.AcceptorDependenciesProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.AsyncBackupProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.AuthorizedHostsProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.BackingMapSchemeProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.BufferTypeProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.CacheMappingProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.CacheServiceProxyProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.CachingSchemeMappingProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.CachingSchemesProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ConfigurationProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.DefaultsProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.DeltaCompressorProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ElementCalculatorProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.EvictionPolicyProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ExecutorProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.GlobalSocketProviderProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.HealthProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.coherence.config.xml.processor.HealthProcessor$XMLHealthCheckDependencies"
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.HttpAcceptorDependenciesProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.InitParamProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.InitParamsProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.InitiatorDependenciesProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.InstanceProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.InterceptorProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.InterceptorsProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.InternalCacheSchemeProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.InvocationServiceProxyProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.KeystoreProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.LeaseGranularityProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.LocalAddressProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.MapListenerProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.MemberListenerProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.OperationBundlingProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PagedTopicSchemeProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ParamTypeProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PartitionAssignmentStrategyProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PartitionListenerProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PartitionedQuorumPolicyProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PasswordProviderBuilderProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PasswordProvidersProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PasswordURLProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PersistenceEnvironmentsProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PersistenceEnvironmentsProcessor$PersistenceEnvironmentProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.PersistenceProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ProviderProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ProxyQuorumPolicyProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ReadLocatorProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ResourceBuilderProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ResourcesProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SSLHostnameVerifierProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SSLProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SchemesProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ScopeNameProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SerializerBuilderProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SerializerFactoryProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SerializersProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ServiceFailurePolicyProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ServiceLoadBalancerProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SocketProviderProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SocketProvidersProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.StorageAccessAuthorizerBuilderProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.StorageAccessAuthorizersProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.StorageProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SubscriberGroupProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.SubscriberGroupsProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.TcpAcceptorProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.TcpInitiatorProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.TopicSchemeMappingProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.TransformerProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.UnitCalculatorProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.ValueStorageSchemeProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.coherence.config.xml.processor.WrapperStreamFactoryListProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.coherence.discovery.Discovery",
@@ -6117,48 +4779,6 @@
       "type": "com.tangosol.coherence.memcached.Response$ResponseCode"
     },
     {
-      "type": "com.tangosol.coherence.memcached.processor.AddReplaceProcessor"
-    },
-    {
-      "type": "com.tangosol.coherence.memcached.processor.AppendPrependProcessor"
-    },
-    {
-      "type": "com.tangosol.coherence.memcached.processor.DeleteProcessor"
-    },
-    {
-      "type": "com.tangosol.coherence.memcached.processor.GetProcessor"
-    },
-    {
-      "type": "com.tangosol.coherence.memcached.processor.IncrDecrProcessor"
-    },
-    {
-      "type": "com.tangosol.coherence.memcached.processor.PutProcessor"
-    },
-    {
-      "type": "com.tangosol.coherence.memcached.processor.TouchProcessor"
-    },
-    {
-      "type": "com.tangosol.coherence.memcached.server.DataHolder"
-    },
-    {
-      "type": "com.tangosol.config.expression.ChainedParameterResolver"
-    },
-    {
-      "type": "com.tangosol.config.expression.LiteralExpression"
-    },
-    {
-      "type": "com.tangosol.config.expression.NullParameterResolver"
-    },
-    {
-      "type": "com.tangosol.config.expression.Parameter"
-    },
-    {
-      "type": "com.tangosol.config.expression.ScopedParameterResolver"
-    },
-    {
-      "type": "com.tangosol.internal.cdi.MethodKey"
-    },
-    {
       "type": "com.tangosol.internal.health.HealthCheckWrapper",
       "methods": [
         {
@@ -6212,96 +4832,6 @@
       ]
     },
     {
-      "type": "com.tangosol.internal.io.pof.JavaCollectionsSupport$SortedMapSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaCollectionsSupport$SortedSetSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaTimeSupport$DurationSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaTimeSupport$InstantSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaTimeSupport$MonthDaySerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaTimeSupport$PeriodSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaTimeSupport$YearMonthSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaTimeSupport$YearSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaTimeSupport$ZoneIdSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.io.pof.JavaTimeSupport$ZoneOffsetSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.internal.net.SystemSessionConfiguration$SystemSessionProvider"
     },
     {
@@ -6329,66 +4859,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.extractor.QueueKeyExtractor"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.model.QueueKey"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.model.QueueOfferResult"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.model.QueuePollResult"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.Bucket"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.ClearQueueProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.HeadIncrementProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.InitialiseQueueInfoProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.PagedQueueKey"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.PeekWholeBucketAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.QueueOfferTailProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.QueuePollPeekHeadProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.QueueVersionInfo"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.RemoveBucketElementProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.paged.TailIncrementProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.processor.QueueOffer"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.processor.QueuePage"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.processor.QueuePeek"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.processor.QueuePoll"
-    },
-    {
-      "type": "com.tangosol.internal.net.queue.processor.QueueRemove"
     },
     {
       "type": "com.tangosol.internal.net.service.DefaultServiceDependencies",
@@ -6631,414 +5101,10 @@
       "type": "com.tangosol.internal.net.topic.ReceiveResult$Status"
     },
     {
-      "type": "com.tangosol.internal.net.topic.SimplePublishResult"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.SimplePublisherStatus"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.SimpleReceiveResult"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.CleanupSubscribers"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.CloseSubscriptionProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.CommitProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.DestroySubscriptionProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.EnsureSubscriptionProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.EnsureSubscriptionProcessor$Result"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.EvictSubscriber"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.HeadAdvancer"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.OfferProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.OfferProcessor$Result"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.PollProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.PollProcessor$Result"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.SeekProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.SeekProcessor$Result"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.SubscriberHeartbeatProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.TailAdvancer"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.agent.TopicInitialiseProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.filter.UnreadTopicContentFilter"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.NotificationKey"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Page"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Page$ElementExtractor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Page$HeadExtractor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Page$Key"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Page$TailExtractor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.PageElement"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.PagedPosition"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.PagedTopicSubscription"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.PagedTopicSubscription$Key"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.SubscriberGroupId"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.SubscriberId"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.SubscriberInfo"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.SubscriberInfo$GroupIdExtractor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.SubscriberInfo$Key"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.SubscriberInfo$MemberIdExtractor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Subscription"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Subscription$HeadExtractor"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Subscription$Key"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Usage"
-    },
-    {
-      "type": "com.tangosol.internal.net.topic.impl.paged.model.Usage$Key"
-    },
-    {
       "type": "com.tangosol.internal.tracing.opentelemetry.OpenTelemetryShimLoader"
     },
     {
       "type": "com.tangosol.internal.tracing.opentracing.OpenTracingShimLoader"
-    },
-    {
-      "type": "com.tangosol.internal.util.DoubleBag"
-    },
-    {
-      "type": "com.tangosol.internal.util.DoubleSummaryStatistics"
-    },
-    {
-      "type": "com.tangosol.internal.util.IntBag"
-    },
-    {
-      "type": "com.tangosol.internal.util.IntSummaryStatistics"
-    },
-    {
-      "type": "com.tangosol.internal.util.LongBag"
-    },
-    {
-      "type": "com.tangosol.internal.util.LongSummaryStatistics"
-    },
-    {
-      "type": "com.tangosol.internal.util.SimpleBinaryEntry"
-    },
-    {
-      "type": "com.tangosol.internal.util.aggregator.BigDecimalSerializationWrapper"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableCollection"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableConcurrentMap"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableList"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableList$Unmodifiable"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableMap"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableMap$Unmodifiable"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableSet"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableSet$Unmodifiable"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableSortedMap"
-    },
-    {
-      "type": "com.tangosol.internal.util.collection.PortableSortedSet"
-    },
-    {
-      "type": "com.tangosol.internal.util.invoke.ClassDefinition",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.util.invoke.ClassIdentity"
-    },
-    {
-      "type": "com.tangosol.internal.util.invoke.RemoteConstructor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.util.invoke.lambda.AnonymousLambdaIdentity",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.util.invoke.lambda.MethodReferenceIdentity",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.util.invoke.lambda.StaticLambdaInfo",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryBlindPutProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryContainsValueProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryGetProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryPutAllProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryPutAllWithExpiryProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryPutIfAbsentProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryPutProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryRemoveProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryReplaceMappingProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinaryReplaceProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.BinaryProcessors$BinarySyntheticRemoveBlindProcessor"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$BinaryGet"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$Get"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$GetOrDefault"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$Null"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$Put"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$PutAll"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$PutAllWithExpiry"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$PutIfAbsent"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$Remove"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$RemoveBlind"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$RemoveNoResults"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$RemoveValue"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$Replace"
-    },
-    {
-      "type": "com.tangosol.internal.util.processor.CacheProcessors$ReplaceValue"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.CollectorAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.DoubleCollectorAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.DoublePipeline$FinderAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.DoublePipeline$MatcherAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.DoublePipeline$Optional"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.DoublePipeline$StatefulOp"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.DoublePipeline$StatelessOp"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.IntCollectorAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.IntPipeline$FinderAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.IntPipeline$MatcherAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.IntPipeline$Optional"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.IntPipeline$StatefulOp"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.IntPipeline$StatelessOp"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.LongCollectorAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.LongPipeline$FinderAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.LongPipeline$MatcherAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.LongPipeline$Optional"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.LongPipeline$StatefulOp"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.LongPipeline$StatelessOp"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.ReferencePipeline",
-      "methods": [
-        {
-          "name": "$deserializeLambda$",
-          "parameterTypes": [
-            "java.lang.invoke.SerializedLambda"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.ReferencePipeline$FinderAggregator",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.ReferencePipeline$Head",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.ReferencePipeline$MatcherAggregator"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.ReferencePipeline$StatefulOp"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.ReferencePipeline$StatelessOp",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
     },
     {
       "type": "com.tangosol.internal.util.stream.ReferencePipeline$lambda$unordered$4c7fec84$1$0:065F347FFD9F8E4B928E8FF2568C78A0",
@@ -7048,57 +5114,6 @@
           "parameterTypes": []
         }
       ]
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.AveragingDoubleCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.AveragingIntCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.AveragingLongCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.BiReducingCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.CollectingAndThenCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.CollectionCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.GroupingByCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.MapCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.MappingCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.ReducingCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.SimpleRemoteCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.SummarizingDoubleCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.SummarizingIntCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.SummarizingLongCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.SummingDoubleCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.SummingIntCollector"
-    },
-    {
-      "type": "com.tangosol.internal.util.stream.collectors.SummingLongCollector"
     },
     {
       "type": "com.tangosol.io.AbstractByteArrayReadBuffer",
@@ -7129,123 +5144,6 @@
       ]
     },
     {
-      "type": "com.tangosol.io.pof.EnumPofSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.InetAddressSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.InetSocketAddressSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.OptionalDoubleSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.OptionalIntSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.OptionalLongSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.OptionalSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.PortableTypeSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "int",
-            "java.lang.Class"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.PrincipalPofSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.SubjectPofSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.ThrowablePofSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.UuidSerializer",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.io.pof.reflect.SimplePofPath"
-    },
-    {
-      "type": "com.tangosol.license.LicenseException"
-    },
-    {
       "type": "com.tangosol.net.CompressionFilter",
       "methods": [
         {
@@ -7262,12 +5160,6 @@
           "parameterTypes": []
         }
       ]
-    },
-    {
-      "type": "com.tangosol.net.RequestIncompleteException"
-    },
-    {
-      "type": "com.tangosol.net.RequestTimeoutException"
     },
     {
       "type": "com.tangosol.net.TcpDatagramSocketProvider$DefaultDependencies"
@@ -7287,36 +5179,6 @@
     },
     {
       "type": "com.tangosol.net.events.application.LifecycleEvent"
-    },
-    {
-      "type": "com.tangosol.net.internal.AspNetSessionStoreProvider$AcquireSessionProcessor"
-    },
-    {
-      "type": "com.tangosol.net.internal.AspNetSessionStoreProvider$ExternalAttributeKey"
-    },
-    {
-      "type": "com.tangosol.net.internal.AspNetSessionStoreProvider$ReleaseSessionProcessor"
-    },
-    {
-      "type": "com.tangosol.net.internal.AspNetSessionStoreProvider$ResetSessionTimeoutProcessor"
-    },
-    {
-      "type": "com.tangosol.net.internal.AspNetSessionStoreProvider$SaveSessionProcessor"
-    },
-    {
-      "type": "com.tangosol.net.internal.AspNetSessionStoreProvider$SessionHolder"
-    },
-    {
-      "type": "com.tangosol.net.internal.AspNetSessionStoreProvider$SessionKey"
-    },
-    {
-      "type": "com.tangosol.net.internal.PartitionSize"
-    },
-    {
-      "type": "com.tangosol.net.internal.PartitionSizeAggregator"
-    },
-    {
-      "type": "com.tangosol.net.internal.RemoveEntryProcessor"
     },
     {
       "type": "com.tangosol.net.management.AnnotatedStandardEmitterMBean"
@@ -7369,43 +5231,7 @@
       "type": "com.tangosol.net.management.annotation.Notification"
     },
     {
-      "type": "com.tangosol.net.messaging.ConnectionException"
-    },
-    {
-      "type": "com.tangosol.net.partition.DefaultVersionedPartitions",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.net.partition.Ownership"
-    },
-    {
-      "type": "com.tangosol.net.partition.PartitionSet",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.net.partition.PartitionStatistics",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
       "type": "com.tangosol.net.partition.SimpleAssignmentStrategy"
-    },
-    {
-      "type": "com.tangosol.net.partition.SimplePartitionKey"
     },
     {
       "type": "com.tangosol.net.partition.SimpleStrategyMBean",
@@ -7493,12 +5319,6 @@
       ]
     },
     {
-      "type": "com.tangosol.net.partition.VersionedOwnership"
-    },
-    {
-      "type": "com.tangosol.net.security.PermissionInfo"
-    },
-    {
       "type": "com.tangosol.net.ssl.URLCertificateLoader",
       "methods": [
         {
@@ -7532,40 +5352,10 @@
       ]
     },
     {
-      "type": "com.tangosol.net.topic.Publisher$FailOnFull"
-    },
-    {
       "type": "com.tangosol.net.topic.Publisher$OnFailure"
     },
     {
-      "type": "com.tangosol.net.topic.Publisher$OrderById"
-    },
-    {
-      "type": "com.tangosol.net.topic.Publisher$OrderByNone"
-    },
-    {
-      "type": "com.tangosol.net.topic.Publisher$OrderByThread"
-    },
-    {
-      "type": "com.tangosol.net.topic.Publisher$OrderByValue"
-    },
-    {
-      "type": "com.tangosol.net.topic.Subscriber$CommitResult"
-    },
-    {
       "type": "com.tangosol.net.topic.Subscriber$CommitResultStatus"
-    },
-    {
-      "type": "com.tangosol.net.topic.Subscriber$CompleteOnEmpty"
-    },
-    {
-      "type": "com.tangosol.net.topic.Subscriber$Convert"
-    },
-    {
-      "type": "com.tangosol.net.topic.Subscriber$Filtered"
-    },
-    {
-      "type": "com.tangosol.net.topic.Subscriber$Name"
     },
     {
       "type": "com.tangosol.persistence.PersistenceManagerMBean",
@@ -7584,27 +5374,6 @@
         },
         {
           "name": "isIdle",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.run.xml.SimpleDocument"
-    },
-    {
-      "type": "com.tangosol.run.xml.SimpleElement",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.run.xml.SimpleValue",
-      "methods": [
-        {
-          "name": "<init>",
           "parameterTypes": []
         }
       ]
@@ -7636,53 +5405,12 @@
       "allDeclaredFields": true
     },
     {
-      "type": "com.tangosol.util.Binary",
-      "allDeclaredFields": true
-    },
-    {
-      "type": "com.tangosol.util.CompositeKey"
-    },
-    {
-      "type": "com.tangosol.util.Fragment"
-    },
-    {
       "type": "com.tangosol.util.InflatableCollection",
       "allDeclaredFields": true
     },
     {
       "type": "com.tangosol.util.InflatableSet",
       "allDeclaredFields": true
-    },
-    {
-      "type": "com.tangosol.util.LiteMap",
-      "serializable": true,
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.util.MapEvent"
-    },
-    {
-      "type": "com.tangosol.util.NullFilter"
-    },
-    {
-      "type": "com.tangosol.util.NullImplementation$NullEntryProcessor"
-    },
-    {
-      "type": "com.tangosol.util.NullImplementation$NullMap"
-    },
-    {
-      "type": "com.tangosol.util.NullImplementation$NullObservableMap"
-    },
-    {
-      "type": "com.tangosol.util.NullImplementation$NullSet"
-    },
-    {
-      "type": "com.tangosol.util.NullImplementation$NullValueExtractor"
     },
     {
       "type": "com.tangosol.util.SafeHashMap",
@@ -7699,309 +5427,6 @@
           "name": "m_oValue"
         }
       ]
-    },
-    {
-      "type": "com.tangosol.util.SimpleHolder"
-    },
-    {
-      "type": "com.tangosol.util.SimpleQueryRecord"
-    },
-    {
-      "type": "com.tangosol.util.SimpleQueryRecord$PartialResult"
-    },
-    {
-      "type": "com.tangosol.util.SimpleQueryRecord$PartialResult$IndexLookupRecord"
-    },
-    {
-      "type": "com.tangosol.util.SimpleQueryRecord$PartialResult$Step"
-    },
-    {
-      "type": "com.tangosol.util.UID"
-    },
-    {
-      "type": "com.tangosol.util.UUID"
-    },
-    {
-      "type": "com.tangosol.util.UniversalManipulator"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.BigDecimalAverage"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.BigDecimalMax"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.BigDecimalMin"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.BigDecimalSum"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.ComparableMax"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.ComparableMin"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.CompositeAggregator"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.CompositeAggregator$Parallel"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.Count"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.DistinctValues"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.DoubleAverage"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.DoubleMax"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.DoubleMin"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.DoubleSum",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.util.aggregator.GroupAggregator",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.util.aggregator.GroupAggregator$Parallel"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.LongMax"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.LongMin"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.LongSum"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.PriorityAggregator"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.QueryRecorder"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.ReducerAggregator"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.ScriptAggregator"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.TopNAggregator"
-    },
-    {
-      "type": "com.tangosol.util.aggregator.TopNAggregator$PartialResult"
-    },
-    {
-      "type": "com.tangosol.util.comparator.ChainedComparator"
-    },
-    {
-      "type": "com.tangosol.util.comparator.EntryComparator"
-    },
-    {
-      "type": "com.tangosol.util.comparator.ExtractorComparator"
-    },
-    {
-      "type": "com.tangosol.util.comparator.InverseComparator"
-    },
-    {
-      "type": "com.tangosol.util.comparator.SafeComparator"
-    },
-    {
-      "type": "com.tangosol.util.extractor.ChainedExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.ChainedFragmentExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.CollectionExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.CompositeUpdater"
-    },
-    {
-      "type": "com.tangosol.util.extractor.ConditionalExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.DeserializationAccelerator"
-    },
-    {
-      "type": "com.tangosol.util.extractor.FragmentExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.IdentityExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.KeyExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.MultiExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.PofExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.PofUpdater"
-    },
-    {
-      "type": "com.tangosol.util.extractor.ReflectionExtractor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.util.extractor.ReflectionUpdater"
-    },
-    {
-      "type": "com.tangosol.util.extractor.ScriptValueExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.UniversalExtractor"
-    },
-    {
-      "type": "com.tangosol.util.extractor.UniversalUpdater"
-    },
-    {
-      "type": "com.tangosol.util.filter.AllFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.AlwaysFilter",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.util.filter.AndFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.AnyFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.BetweenFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.CacheEventFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.ContainsAllFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.ContainsAnyFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.ContainsFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.EqualsFilter",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.util.filter.FilterTrigger"
-    },
-    {
-      "type": "com.tangosol.util.filter.GreaterEqualsFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.GreaterFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.InFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.InKeySetFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.IsNotNullFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.IsNullFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.KeyAssociatedFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.LessEqualsFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.LessFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.LikeFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.LimitFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.MapEventFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.MapEventTransformerFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.NeverFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.NotEqualsFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.NotFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.OrFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.PartitionedFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.PredicateFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.PresentFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.PriorityFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.RegexFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.ScriptFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.ValueChangeEventFilter"
-    },
-    {
-      "type": "com.tangosol.util.filter.XorFilter"
     },
     {
       "type": "com.tangosol.util.function.Remote$Function",
@@ -8022,69 +5447,6 @@
           "parameterTypes": []
         }
       ]
-    },
-    {
-      "type": "com.tangosol.util.processor.CompositeProcessor"
-    },
-    {
-      "type": "com.tangosol.util.processor.ConditionalProcessor"
-    },
-    {
-      "type": "com.tangosol.util.processor.ConditionalPut"
-    },
-    {
-      "type": "com.tangosol.util.processor.ConditionalPutAll"
-    },
-    {
-      "type": "com.tangosol.util.processor.ConditionalRemove"
-    },
-    {
-      "type": "com.tangosol.util.processor.ExtractorProcessor"
-    },
-    {
-      "type": "com.tangosol.util.processor.NumberIncrementor"
-    },
-    {
-      "type": "com.tangosol.util.processor.NumberMultiplier"
-    },
-    {
-      "type": "com.tangosol.util.processor.PreloadRequest"
-    },
-    {
-      "type": "com.tangosol.util.processor.PriorityProcessor"
-    },
-    {
-      "type": "com.tangosol.util.processor.PropertyManipulator"
-    },
-    {
-      "type": "com.tangosol.util.processor.ScriptProcessor"
-    },
-    {
-      "type": "com.tangosol.util.processor.TouchProcessor"
-    },
-    {
-      "type": "com.tangosol.util.processor.UpdaterProcessor",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": []
-        }
-      ]
-    },
-    {
-      "type": "com.tangosol.util.processor.VersionedPut"
-    },
-    {
-      "type": "com.tangosol.util.processor.VersionedPutAll"
-    },
-    {
-      "type": "com.tangosol.util.transformer.ExtractorEventTransformer"
-    },
-    {
-      "type": "com.tangosol.util.transformer.SamplingEventTransformer"
-    },
-    {
-      "type": "com.tangosol.util.transformer.SemiLiteEventTransformer"
     },
     {
       "type": "double[]"

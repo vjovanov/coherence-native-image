@@ -1,5 +1,6 @@
 package com.oracle.coherence.graal;
 
+import com.tangosol.coherence.Component;
 import com.tangosol.coherence.config.xml.CacheConfigNamespaceHandler;
 import com.tangosol.coherence.config.xml.OperationalConfigNamespaceHandler;
 import com.tangosol.config.annotation.Injectable;
@@ -22,6 +23,7 @@ import java.lang.reflect.Method;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -29,6 +31,9 @@ import java.util.stream.Collectors;
 
 @SuppressWarnings("unused")
 public class CoherenceNativeImageFeature implements Feature {
+    private record ReasonClass(Class<?> reason, Class<?> type) {
+    }
+
     List<Class<?>> handledSuperTypes = List.of(
             ElementProcessor.class,
             PortableObject.class,
@@ -41,7 +46,7 @@ public class CoherenceNativeImageFeature implements Feature {
             OperationalConfigNamespaceHandler.Extension.class
     );
 
-    Set<Class<?>> processedTypes = ConcurrentHashMap.newKeySet();
+    Set<ReasonClass> processedTypes = ConcurrentHashMap.newKeySet();
 
     @Override
     public void afterRegistration(AfterRegistrationAccess access) {
@@ -57,13 +62,14 @@ public class CoherenceNativeImageFeature implements Feature {
                     var clazz = Class.forName(classInfo.getName(), false, imageClassLoader);
                     if (clazz.getAnnotation(PortableType.class) != null) {
                         logRegistration(PortableType.class, clazz);
-                        registerClass(clazz);
-                        // TODO an we refine this?
-                        RuntimeReflection.register(clazz.getMethods());
+                        registerAllElements(clazz);
+                    } else if (Component.class.isAssignableFrom(clazz)) {
+                        logRegistration(Component.class, clazz);
+                        registerAllElements(clazz);
                     }
                     for (Class<?> handledSuperType : handledSuperTypes) {
                         logRegistration(handledSuperType, clazz);
-                        registerClass(clazz);
+                        registerAllElements(clazz);
                     }
                 } catch (ClassNotFoundException | LinkageError e) {
                     // ignore: due to incomplete classpath
@@ -74,21 +80,26 @@ public class CoherenceNativeImageFeature implements Feature {
         /* Dump processed elements into json */
         if (getProcessedElementsPath() != null) {
             writeToFile(getProcessedElementsPath(), processedTypes.stream()
-                    .map(Class::getTypeName)
-                    .sorted()
-                    .map(c -> "\"" + c + "\"")
+                    .sorted(Comparator.comparing(c -> c.type.getTypeName()))
+                    .map(c -> "{ \"reason\": \"" + c.reason + "\", \"type\": \"" + c.type.getTypeName() + "\" }")
                     .collect(Collectors.joining(",\n ", "[\n ", "\n]"))
             );
         }
     }
 
-    private void logRegistration(Class<?> portableTypeClass, Class<?> clazz) {
-        if (Boolean.parseBoolean(System.getProperty("com.oracle.coherence.graal.logRegistrations", "false"))) {
-            System.out.println(portableTypeClass.getTypeName() + ": " + clazz);
-        }
+    private static void registerAllElements(Class<?> clazz) {
+        registerClass(clazz);
+        RuntimeReflection.register(clazz.getDeclaredConstructors());
+        RuntimeReflection.register(clazz.getConstructors());
+        RuntimeReflection.register(clazz.getDeclaredMethods());
+        RuntimeReflection.register(clazz.getMethods());
+        RuntimeReflection.register(clazz.getFields());
+        RuntimeReflection.register(clazz.getDeclaredFields());
+    }
 
+    private void logRegistration(Class<?> reason, Class<?> clazz) {
         if (getProcessedElementsPath() != null) {
-            processedTypes.add(clazz);
+            processedTypes.add(new ReasonClass(reason, clazz));
         }
     }
 
